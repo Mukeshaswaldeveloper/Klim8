@@ -9,6 +9,7 @@ import com.inmortal.klim8.R
 import klim8.activities.challenges.CommutingChallenge
 import klim8.activities.challenges.LiteBiteChallenge
 import klim8.activities.challenges.ShoppingChallenge
+import klim8.activities.challenges.WasteChallengeActivit
 
 
 class ChallengesAllAdapter(context: Context) :
@@ -40,7 +41,7 @@ class ChallengesAllAdapter(context: Context) :
                 context.startActivity(Intent(context,CommutingChallenge::class.java))
             }
             else if(position==3){
-                context.startActivity(Intent(context,LiteBiteChallenge::class.java))
+                context.startActivity(Intent(context,WasteChallengeActivit::class.java))
             }
 
 
