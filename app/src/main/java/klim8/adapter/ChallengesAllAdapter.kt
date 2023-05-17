@@ -6,10 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.inmortal.klim8.R
-import klim8.activities.challenges.CommutingChallenge
-import klim8.activities.challenges.LiteBiteChallenge
-import klim8.activities.challenges.ShoppingChallenge
-import klim8.activities.challenges.WasteChallengeActivit
+import klim8.activities.challenges.*
 
 
 class ChallengesAllAdapter(context: Context) :
@@ -42,6 +39,8 @@ class ChallengesAllAdapter(context: Context) :
             }
             else if(position==3){
                 context.startActivity(Intent(context,WasteChallengeActivit::class.java))
+            }else if(position==4){
+                context.startActivity(Intent(context,OfyChallengeActivity::class.java))
             }
 
 

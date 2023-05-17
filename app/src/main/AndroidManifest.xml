@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Klim8"
         tools:targetApi="31">
         <activity
+            android:name="klim8.activities.challenges.OfyChallengeActivity"
+            android:exported="false" />
+        <activity
             android:name="klim8.activities.challenges.WasteChallengeActivit"
             android:exported="false" />
         <activity
@@ -97,7 +100,7 @@
             android:exported="false" />
         <activity
             android:name="klim8.activities.authentication.SplashScreen"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name="klim8.activities.authentication.MainActivity"
             android:exported="true">
