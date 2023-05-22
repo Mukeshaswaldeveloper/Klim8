@@ -1,21 +1,26 @@
 package klim8.fragment.challenge.shopping
 
+import android.app.Fragment
+import android.app.FragmentTransaction
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
-import androidx.fragment.app.Fragment
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.FragmentTransaction
+import androidx.annotation.RequiresApi
+
 import com.inmortal.klim8.R
 import com.inmortal.klim8.databinding.FragmentShoppingQuestion6Binding
 import com.inmortal.klim8.databinding.FragmentShoppingQuestion7Binding
 import klim8.activities.QuesAnsActivity
 
-class ShoppingFragmentQuestion7 : Fragment() {
+class ShoppingFragmentQuestion7 : androidx.fragment.app.Fragment()  {
     lateinit var binding: FragmentShoppingQuestion7Binding
     lateinit var fragReplace: FragmentTransaction
 
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
