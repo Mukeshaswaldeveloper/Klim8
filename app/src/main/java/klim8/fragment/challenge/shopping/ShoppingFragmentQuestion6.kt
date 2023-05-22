@@ -28,7 +28,7 @@ class ShoppingFragmentQuestion6 : Fragment() {
     private fun onClick() {
         binding.btnContinueShopQ6.setOnClickListener {
             fragReplace = requireFragmentManager().beginTransaction()
-            fragReplace.replace(R.id.frame_challenge_shopping, ShoppingFragmentQuestion7())
+            fragReplace.replace(R.id.frame_challenge_shopping,ShoppingFragmentQuestion7())
             fragReplace.commit()
 
         }
