@@ -1,0 +1,8 @@
+com.pierfrancescosoffritti.androidyoutubeplayer
+attr autoPlay
+attr enableAutomaticInitialization
+attr handleNetworkEvents
+attr videoId
+id view_tree_lifecycle_owner
+raw ayp_youtube_player
+styleable YouTubePlayerView autoPlay enableAutomaticInitialization handleNetworkEvents videoId

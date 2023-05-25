@@ -8,8 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.inmortal.klim8.R
 
 
-class CompleteDeedsAdapter(var context: Context) :
-    RecyclerView.Adapter<CompleteDeedsAdapter.ViewHolder>() {
+class CompleteDeedsAdapter(var context: Context) : RecyclerView.Adapter<CompleteDeedsAdapter.ViewHolder>() {
 
 
 
